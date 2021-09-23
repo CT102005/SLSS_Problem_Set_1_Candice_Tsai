@@ -5,7 +5,7 @@
 # It will keep track of score and give
 # A final result
 score = 0
-name = (input("Welcome to my quiz! What is your name? "))
+name = (input("Welcome to the Genshin Impact quiz! What is your name? "))
 print(f'Alright {name}, lets get started shall we?')
 print()
 
@@ -96,7 +96,18 @@ elif harbingers == "B":
     print(f'Your score is {score}')
 else:
     print("That was not the answer.")
-    print("The answer was D. 11")
+    print("The answer was B. 11")
+    print(f'Your score is {score}')
+
+print()
+print("-------------------------------------------------------")
+elements = float(input('How many elements are in the Genshin universe? '))
+if elements == 7:
+    print("That is correct!")
+    score = score + 1
+    print(f'Your score is {score}')
+else:
+    print("That is incorrect>")
     print(f'Your score is {score}')
 
 print()
@@ -104,4 +115,9 @@ print("-------------------------------------------------------")
 was_this_fun = (input('Was this a fun quiz? '))
 print(f'{was_this_fun}? Great to hear!')
 print()
-print("Your final score was:")
+final_score = score / 5 * 100
+print(f'Your final score is: {final_score}%')
+if final_score == 100:
+    print("Full score! Wonderful!")
+else:
+    print("This is still a work in progress")
