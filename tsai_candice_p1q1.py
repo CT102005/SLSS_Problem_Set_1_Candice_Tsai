@@ -119,5 +119,11 @@ final_score = score / 5 * 100
 print(f'Your final score is: {final_score}%')
 if final_score == 100:
     print("Full score! Wonderful!")
+elif final_score == 80:
+    print("80%, not bad")
+elif final_score == 60:
+    print("Nice job!")
+elif final_score == 40:
+    print("Alright!")
 else:
-    print("This is still a work in progress")
+    print("Osmanthus wine tastes the same as I remember")
