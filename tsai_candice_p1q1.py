@@ -171,7 +171,7 @@ print("-------------------------------------------------------")
 was_this_fun = (input('Was this a fun quiz?😊 '))
 print(f'{was_this_fun}? Great to hear!😄')
 print()
-final_score = round(score / total_amount_of_questions * 100)
+final_score = round(score / total_amount_of_questions * 100, 1)
 print(f'Your final score is: {final_score}%')
 if final_score > 99:
     print("Full score! Wonderful!")
