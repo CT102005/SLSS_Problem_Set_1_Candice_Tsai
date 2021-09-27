@@ -11,6 +11,7 @@ print(f'Alright {name}, lets get started shall we? 😁')
 print()
 
 primogems = (input('1. How many primogems does one fate cost? ☄️ '))
+total_amount_of_questions = total_amount_of_questions + 1
 if primogems == "160":
     print("Yes, well done!")
     score = score + 1
@@ -106,7 +107,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-vision = (input('4. Which elemental vision type does Keqing wield?🐱 '))
+vision = (input('5. Which elemental vision type does Keqing wield?🐱 '))
 if vision == "electro":
     print("Correct!")
     score = score + 1
@@ -162,7 +163,7 @@ if elements == "7":
     score = score + 1
     print(f'Your score is {score}')
 else:
-    print("That is incorrect>")
+    print("That is incorrect")
     print(f'Your score is {score}')
 
 print()
