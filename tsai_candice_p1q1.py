@@ -6,11 +6,11 @@
 # A final result
 score = 0
 total_amount_of_questions = 0
-name = (input("Welcome to the Genshin Impact quiz! What is your name? "))
-print(f'Alright {name}, lets get started shall we?')
+name = (input("Welcome to the Genshin Impact quiz! What is your name? 🤗 "))
+print(f'Alright {name}, lets get started shall we? 😁')
 print()
 
-primogems = (input('1. How many primogems does one fate cost? '))
+primogems = (input('1. How many primogems does one fate cost? ☄️ '))
 if primogems == "160":
     print("Yes, well done!")
     score = score + 1
@@ -23,7 +23,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-print('2. Which on of the following reactions is caused when applying cryo to electro? ')
+print('2. Which on of the following reactions is caused when applying cryo to electro? ❄️⚡️ ')
 print("A. Melt")
 print("B. Crystalize")
 print("C. Burning.")
@@ -54,7 +54,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-region = (input('3. What is the name of the 3rd and newest region in Teyvat? '))
+region = (input('3. What is the name of the 3rd and newest region in Teyvat? 🏯 '))
 if region == "inazuma":
     print("You got it right!")
     score = score + 1
@@ -71,7 +71,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-print('4. Tartaglia is which number of the Fatui Harbingers?')
+print('4. Tartaglia is which number of the Fatui Harbingers?🎭')
 print("A. 13")
 print("B. 11")
 print("C. 17.")
@@ -106,7 +106,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-vision = (input('4. Which elemental vision type does Keqing wield? '))
+vision = (input('4. Which elemental vision type does Keqing wield?🐱 '))
 if vision == "electro":
     print("Correct!")
     score = score + 1
@@ -131,7 +131,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-cat = (input('6. Is Keqing a cat? '))
+cat = (input('6. Is Keqing a cat?🤔 '))
 if cat == "No":
     print("You are on a roll!")
     score = score + 1
@@ -156,7 +156,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-elements = (input('7. How many elements are in the Genshin universe? '))
+elements = (input('7. How many elements are in the Genshin universe?💭 '))
 if elements == "7":
     print("That is correct!")
     score = score + 1
@@ -167,8 +167,8 @@ else:
 
 print()
 print("-------------------------------------------------------")
-was_this_fun = (input('Was this a fun quiz? '))
-print(f'{was_this_fun}? Great to hear!')
+was_this_fun = (input('Was this a fun quiz?😊 '))
+print(f'{was_this_fun}? Great to hear!😄')
 print()
 final_score = round(score / total_amount_of_questions * 100)
 print(f'Your final score is: {final_score}%')
@@ -181,4 +181,4 @@ elif final_score > 60:
 elif final_score > 40:
     print("Alright then!")
 else:
-    print("Osmanthus wine tastes the same as I remember")
+    print("Osmanthus wine tastes the same as I remember 😕")
