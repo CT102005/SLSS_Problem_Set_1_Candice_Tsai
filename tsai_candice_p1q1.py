@@ -4,10 +4,11 @@
 # Quiz has 5 questions the user will answer.
 # It will keep track of score and give
 # A final result
+from rich import print
 score = 0
 total_amount_of_questions = 0
 name = (input("Welcome to the Genshin Impact quiz! What is your name? 🤗 "))
-print(f'Alright {name}, lets get started shall we? 😁')
+print(f'[bold]Alright {name}, lets get started shall we?[/bold] 😁')
 print()
 
 primogems = (input('1. How many primogems does one fate cost? ☄️ '))
@@ -24,7 +25,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-print('2. Which on of the following reactions is caused when applying cryo to electro? ❄️⚡️ ')
+print('2. Which on of the following reactions is caused when applying [blue]cryo[/blue] to [purple]electro[/purple]? ❄️⚡️ ')
 print("A. Melt")
 print("B. Crystalize")
 print("C. Burning.")
@@ -72,7 +73,7 @@ else:
 print()
 print("-------------------------------------------------------")
 total_amount_of_questions = total_amount_of_questions + 1
-print('4. Tartaglia is which number of the Fatui Harbingers?🎭')
+print('4. [blue]Tartaglia[/blue] is which number of the Fatui Harbingers?🎭')
 print("A. 13")
 print("B. 11")
 print("C. 17.")
@@ -169,7 +170,7 @@ else:
 print()
 print("-------------------------------------------------------")
 was_this_fun = (input('Was this a fun quiz?😊 '))
-print(f'{was_this_fun}? Great to hear!😄')
+print(f'{was_this_fun}? [green]Great to hear![/green]😄')
 print()
 final_score = round(score / total_amount_of_questions * 100, 1)
 print(f'Your final score is: {final_score}%')
@@ -183,3 +184,4 @@ elif final_score > 40:
     print("Alright then!")
 else:
     print("Osmanthus wine tastes the same as I remember 😕")
+
